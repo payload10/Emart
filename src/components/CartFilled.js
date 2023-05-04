@@ -1,6 +1,6 @@
 import React from 'react';
 import CartItems from './CartItems';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const CartFilled = ({ cartItems, handleEmptyCart, handleRemoveItemFromCart, handleProductIncrement, handleProductDecrement, activeStep, setActiveStep, nextStep, backStep }) => {
 

@@ -87,7 +87,6 @@ const ShippingDetails = ({ checkoutToken, setActiveStep, next }) => {
 
     // This is going to give us all the methods that we need to run our form
     const {register, handleSubmit} = useForm();
-    const onSubmit = data => console.log(data);
 
     return (
 
